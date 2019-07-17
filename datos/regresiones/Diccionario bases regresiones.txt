@@ -1,0 +1,32 @@
+*** DICCIONARIO DE VARIABLES: BASES DE DATOS PARA REGRESIÓN ***
+
+equipo: Equipo
+Torneo: Torneo
+position_final (mitad): posición al final (a la mitad) del torneo
+points_final (mitad): puntos al final (a la mitad) del torneo
+position_l_final (mitad): posición considerando solo partidos de local al final (a la mitad) del torneo
+position_v_final (mitad): posición considerando solo partidos de visita al final (a la mitad) del torneo
+points_l_final (mitad): puntos considerando solo partidos de local al final (a la mitad) del torneo
+points_v_final (mitad): puntos considerando solo partidos de visita al final (a la mitad) del torneo
+categoria_general_cY: clasificación de equipo según la tabla de posición general (al final de un torneo) considerando Y como punto de corte (Y primeros equipos, Y últimos)
+categoria_local_cY: clasificación de equipo según la tabla de posición de partidos de local (al final del torneo anterior) considerando Y como punto de corte (Y primeros equipos, Y últimos)
+categoria_visita_cY: clasificación de equipo según la tabla de posición de partidos de visita (al final del torneo anterior) considerando Y como punto de corte (Y primeros equipos, Y últimos)
+categoria_elo_cY: clasificación de equipo según tabla de puntaje ELO considerando Y como punto de corte (Y primeros equipos, Y últimos)
+perc_facil_general_pX_cY: fracción de partidos fáciles según definición general considerando los primeros X partidos y el punto de corte Y
+perc_dificil_general_pX_cY: fracción de partidos fáciles según definición general considerando los primeros X partidos y el punto de corte Y
+perc_facil_lv_pX_cY: fracción de partidos fáciles según definición LV considerando los primeros X partidos y el punto de corte Y
+perc_dificil_lv_pX_cY: fracción de partidos fáciles según definición LV considerando los primeros X partidos y el punto de corte Y
+perc_facil_elo_pX_cY: fracción de partidos fáciles según definición ELO considerando los primeros X partidos y el punto de corte Y
+perc_dificil_elo_pX_cY: fracción de partidos fáciles según definición ELO considerando los primeros X partidos y el punto de corte Y
+
+*** ACLARACIONES ***
+- Los equipos recién ascendidos fueron considerados fáciles para las definiciones general y LV
+- La definición según puntaje ELO solo está disponible para las ligas europeas. Los datos de puntajes ELO se obtuvieron de http://clubelo.com/
+- Para la tabla de puntajes ELO que sirve para asignar la dificultad del torneo t, se consideraron los puntajes al último día del mes en que terminó el campeonato t-1. Es decir, si el campeonato t-1 terminó el 10 de mayo, se considera el puntaje ELO de los equipos al 31 de mayo. La tabla se construyó considerando solo a los equipos que participan en el torneo t.
+
+
+*** OTRAS VARIABLES QUE NO FUERON UTILIZADAS EN LA TESIS ***
+
+prom_posicion_Z_pX: promedio de posición según definición de dificultad Z para los primeros X partidos
+ronda_primer_fácil_Z_cY: ronda en que se enfrentó al primer equipo fácil según definición Z 
+
