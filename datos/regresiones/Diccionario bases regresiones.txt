@@ -17,11 +17,11 @@ categoria_elo_cY: clasificación de equipo según tabla de puntaje ELO considera
 
 
 perc_facil_general_hZ_pX_cY: fracción de partidos fáciles según definición general con Z torneos anteriores considerando los primeros X partidos y el punto de corte Y
-perc_dificil_general_hZ_pX_cY: fracción de partidos fáciles según definición general con Z torneos anteriores considerando los primeros X partidos y el punto de corte Y
+perc_dificil_general_hZ_pX_cY: fracción de partidos difíciles según definición general con Z torneos anteriores considerando los primeros X partidos y el punto de corte Y
 perc_facil_lv_hZ_pX_cY: fracción de partidos fáciles según definición LV con Z torneos anteriores considerando los primeros X partidos y el punto de corte Y
-perc_dificil_lv_hZ_pX_cY: fracción de partidos fáciles según definición LV con Z torneos anteriores considerando los primeros X partidos y el punto de corte Y
+perc_dificil_lv_hZ_pX_cY: fracción de partidos difíciles según definición LV con Z torneos anteriores considerando los primeros X partidos y el punto de corte Y
 perc_facil_elo_pX_cY: fracción de partidos fáciles según definición ELO considerando los primeros X partidos y el punto de corte Y
-perc_dificil_elo_pX_cY: fracción de partidos fáciles según definición ELO considerando los primeros X partidos y el punto de corte Y
+perc_dificil_elo_pX_cY: fracción de partidos difíciles según definición ELO considerando los primeros X partidos y el punto de corte Y
 
 *** ACLARACIONES ***
 - Si para un equipo ascendido para el torneo t no había información en las últimas Z temporadas (es decir, no estaba dentro de la tabla histórica), se consideró como fácil en las definiciones general y LV. En ese caso, si la tabla histórica tiene 20 posiciones y hay 2 equipos que no están en esa tabla histórica, a ambos equipos se les asigna la posición 21
