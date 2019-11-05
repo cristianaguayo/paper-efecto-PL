@@ -214,7 +214,10 @@ def ParcharELO(elodir, liga):
                                     'Lazio' : 'Lazio Roma',
                                     'Verona' : 'Hellas Verona',
                                     'Chievo' : 'Chievo Verona',
-                                    'Spal' : 'SPAL 2013 Ferrara'}}
+                                    'Spal' : 'SPAL 2013 Ferrara',
+                                    'SPAL 1907 Ferrara' : 'SPAL 2013 Ferrara',
+                                    'Vicenza Calcio' : 'Vicenza Virtus',
+                                    'FC Messina' : 'ACR Messina'}}
     country = dictliga[liga]
     print(country)
     prereplaces = prereplaces_country[country]
@@ -226,7 +229,7 @@ def ParcharELO(elodir, liga):
 
 datadir = os.path.join(os.path.pardir,'datos','ligas-hist')
 outputdir = os.path.join(os.path.pardir,'datos','elo')
-for liga in ['Espana']:
+for liga in ['Italia']:
     ParcharELO(outputdir, liga)
 #    df_elo = LeerAgregarELO(datadir, str_liga = liga)
 #    df_elo.to_excel(os.path.join(outputdir, '%s-hist.xlsx' % liga), index = False)
